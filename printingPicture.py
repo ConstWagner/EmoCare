@@ -69,6 +69,8 @@ if (counter < 25444): # 25344
     with open("Image.txt", "w") as file:
         file.write(rawText)
     
+    # siehe https://colab.research.google.com/github/tinyMLx/colabs/blob/master/4-2-12-OV7675ImageViewer.ipynb
+    
     HEXADECIMAL_BYTES = decArray
 # Reformat the bytes into an image
     raw_bytes = np.array(HEXADECIMAL_BYTES, dtype="i2")
